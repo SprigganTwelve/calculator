@@ -1,0 +1,76 @@
+
+/*border-raduis est un element permet de jouer sur les angle de la bordure 50%=roue parfait */
+
+/* 'box-shadow' permet d'ajouter  une ombre de porté à un bouton 
+ex : box-shadow: 3px,8px #000;*/
+
+/* 'selecteur : hover' cible le boutton directement survoler par la souris*/
+
+
+
+*{
+    margin:0px;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.container {
+    background :rgba(151, 151, 233, 0.536);
+    width : 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.calculator {
+    background :url(Gojosatoru.jpg);
+    background-size: contain;
+    padding: 30px;
+    border-radius: 10px;
+}
+button {
+    border:0;
+    outline:0;
+    width :70px;
+    height: 50px;
+    font-size :17px;
+    margin: 2px;
+}
+.calcul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+input {
+    font-size: 50px;
+    border:0;
+    outline :0;
+    width : 100px;
+    text-align : right;
+    height : 100px; 
+    background :transparent;
+    color : white;
+    margin-bottom: 14px;
+    flex: 1;
+    color: black;
+}
+button.small {
+    width : 55px;
+    height : 30px;
+    background: transparent;
+    color: rgb(245, 245, 245);
+    
+}  
+.tour {
+    display : flex ;
+    justify-content: center;
+
+}
+.tour button {
+    border-radius:10px;
+}
+.tour button:hover {
+    color: fuchsia;
+    background: black;
+}
